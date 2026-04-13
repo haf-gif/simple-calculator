@@ -6,7 +6,7 @@ services:
     image: web-calc-production:v1.0
     container_name: glassy-calculator-pro
     ports:
-      - "80:8080" # Maps local port 80 to container port 8080
+      - "9000:8080" # Maps local port 80 to container port 8080
     restart: always
     logging:
       driver: "json-file"
